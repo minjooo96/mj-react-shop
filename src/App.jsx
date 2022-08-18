@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 // import ReactDOM from 'react-dom/client'
-import Nav from './components/Nav'
-import Product from './components/Product'
+import Nav from './components/Nav';
+import Product from './components/Product';
+import Slide from './components/Slide'
 import './App.css'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
   return (
     <div>
       <Nav />
+      <Slide />
       <Product products={info} />
     </div>
   )

@@ -8,3 +8,14 @@
 .card:hover img{
   transform: scale(1.2);
 }
+.carousel-root{
+  padding-top:64px;
+  height:500px;
+  overflow: hidden;
+}
+.carousel.carousel-slider,
+.carousel-root .slider-wrapper,
+.carousel-root .slider-wrapper ul,
+.carousel-root .slider-wrapper ul li{
+  height:100%;
+}
