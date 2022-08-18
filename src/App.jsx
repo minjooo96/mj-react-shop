@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div>
-      <Nav thema={thema} />
+      <Nav />
       <Product products={info} />
     </div>
   )
