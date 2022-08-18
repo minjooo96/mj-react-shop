@@ -7,7 +7,6 @@ import './App.css'
 
 function App() {
   const [info, setInfo] = useState([]);
-  
   useEffect(() => {
 		async function fetchData() {
 			const res = await fetch('https://fakestoreapi.com/products');
@@ -16,11 +15,6 @@ function App() {
 		}
     fetchData();
 	}, []);
-
-  // const [thema, setThema] = useState([]);
-  // console.log(document.querySelector('html').getAttribute('data-thema'));
-  
-  // thema = document.querySelector('html').getAttribute('data-thema');
 
   return (
     <div>
